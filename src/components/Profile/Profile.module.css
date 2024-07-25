@@ -1,0 +1,53 @@
+.profiileBox {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  width: 300px;
+}
+.imgIcon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  width: 100px;
+  background-color: #000000;
+  margin-top: 7px;
+}
+
+.userName {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.userTag {
+  font-size: 20px;
+  color: rgba(39, 39, 39, 0.3);
+  text-align: center;
+  margin: 0;
+}
+.userLocation {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  color: rgba(39, 39, 39, 0.3);
+  margin-bottom: 15px;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+.spanColor {
+  color: #000000;
+  font-weight: 500;
+}

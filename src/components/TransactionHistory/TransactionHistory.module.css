@@ -1,0 +1,36 @@
+.tableList {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tableTitle {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tableTitle th {
+  padding: 12px;
+  border: 2px solid #000000;
+}
+
+.typeTransaction,
+.amountTransaction,
+.currencyTransaction {
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #adadad;
+}
+
+tbody td {
+  padding: 8px;
+  border: 1px solid #000000;
+  font-weight: 600;
+  color: #000000;
+}
